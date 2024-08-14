@@ -1,3 +1,5 @@
+import random
+
 name = "Joe"
 question = "Will I win the lottery?"
 answer = ""
@@ -25,6 +27,6 @@ elif random_number == 9:
   answer = "Very doubtful"
 else:
   answer = "Error"
-  
+
 print(name + " asks: " + question)
 print("Magic 8 Ball's answer: " + answer)
